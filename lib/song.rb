@@ -63,7 +63,7 @@ def self.new_from_filename(mp3)
     songs.artist_name = artist_name 
     songs.name = name 
     songs
-    
+    binding.pry
   end
   
   def self.create_from_filename(mp3)
