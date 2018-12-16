@@ -72,7 +72,6 @@ def self.new_from_filename(mp3)
     data.pop
     data.map do |i|
       @file << i.strip 
-      binding.pry
     end 
     songs = Song.new
     @@all << songs
